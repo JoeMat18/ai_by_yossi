@@ -10,7 +10,7 @@ An intelligent AI-powered real estate financial analysis system built with **Lan
 
 ## 🚀 Features
 
-- 💬 **Conversational Interface**: Ask questions in natural language (English or Russian)
+- 💬 **Conversational Interface**: Ask questions in natural language 
 - 📊 **Data Query**: Show filtered data in tables with flexible filtering
 - 💰 **P&L Analysis**: Calculate total Profit & Loss for specific time periods
 - 🏢 **Property Comparison**: Compare financial performance between properties
@@ -184,7 +184,7 @@ class AgentState(TypedDict, total=False):
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cortex-real-estate-agent.git
+git clone https://github.com/JoeMat18/ai_by_yossi.git
 cd cortex-real-estate-agent
 ```
 
