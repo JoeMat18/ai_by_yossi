@@ -2,7 +2,7 @@
 
 An intelligent AI-powered real estate financial analysis system built with **LangGraph**, **Django**, and **Streamlit**. This multi-agent system helps analyze real estate financial data, including revenue, expenses, and profit/loss calculations across properties, tenants, and time periods.
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/Django-5.2.8-green.svg)](https://www.djangoproject.com/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-1.0.3-orange.svg)](https://github.com/langchain-ai/langgraph)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.51.0-red.svg)](https://streamlit.io/)
