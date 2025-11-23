@@ -117,7 +117,6 @@ The agent operates as a **state machine** with 5 specialized nodes, each handlin
   - `total_pnl`: Calculate totals ("Total profit for 2025")
   - `asset_details`: Property info ("Tell me about Building 17")
   - `price_comparison`: Compare properties ("Compare Building 17 and Building 160")
-- **LLM Used**: Yes (with fallback keyword matching)
 
 #### 2. **extract_params** 🔍
 - **Purpose**: Extracts structured parameters from user query
@@ -126,7 +125,6 @@ The agent operates as a **state machine** with 5 specialized nodes, each handlin
   - Year and month filters
   - Filter conditions (property, tenant, ledger type)
   - Action type (show, aggregate, count)
-- **LLM Used**: Yes (with regex fallback)
 
 #### 3. **retrieve_data** 📊
 - **Purpose**: Fetches data from dataset based on extracted parameters
@@ -136,7 +134,6 @@ The agent operates as a **state machine** with 5 specialized nodes, each handlin
   - `compute_total_pnl()`: P&L calculations
   - `get_single_asset()`: Asset details
   - `compare_assets_by_price()`: Property comparison
-- **LLM Used**: No (pure data processing)
 
 #### 4. **compute_answer** ✍️
 - **Purpose**: Generates natural language response
@@ -145,7 +142,6 @@ The agent operates as a **state machine** with 5 specialized nodes, each handlin
   - Statistical summaries
   - Formatted numbers with thousands separators
   - Icons and visual enhancements
-- **LLM Used**: Optional (for data_query formatting)
 
 #### 5. **end_with_error** ⚠️
 - **Purpose**: Handles error states gracefully
@@ -153,7 +149,6 @@ The agent operates as a **state machine** with 5 specialized nodes, each handlin
   - No data found
   - Invalid parameters
   - Dataset configuration errors
-- **LLM Used**: No
 
 ### Agent State
 
